@@ -1,3 +1,28 @@
-h1 { 
-    color: red;
+#logo {
+    padding: 100px 50px 50px 50px;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+#searchbar {
+    height: 100px;
+    margin: auto;
+    width: 25%;
+}
+
+#oval {
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+
+#oval:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+input { 
+    margin: auto;
+    width: 100%;
+    border: 0px;
 }
